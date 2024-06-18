@@ -1,0 +1,117 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 150px; /* Ajuste a altura conforme necessário */
+  }
+  
+
+  
+
+  .product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 150px; /* Ajuste a altura conforme necessário */
+  }
+  
+  
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 1rem;
+  }
+
+
+  header {
+    background-color: #f3b200;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  #cart {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem;
+  }
+  
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+  }
+  
+  .product {
+    margin: 1rem;
+    position: relative;
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(66, 133, 244, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    border-radius: 8px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .product:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay button {
+    background-color: #fff;
+    color: #4285f4;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .overlay button:hover {
+    background-color: #f2f2f2;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  cart-item {
+    margin-bottom: 20px;
+  }
